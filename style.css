@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0px;
+  background-color: blanchedalmond;
+}
+
+button {
+  padding: 6px 6px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.head-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.carta {
+  position: relative;
+  width: 100px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+.espacio-juego {
+  margin-top: 30px;
+}
+
+
+#computadora-cartas,
+#jugador-cartas {
+  height: 120px;
+}
